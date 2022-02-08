@@ -1,0 +1,5 @@
+#conversion of Kilometers into centimeters 
+a=float(input('enter no.of kilometers='))
+# 1 km=100000 centimeters 
+a=a*100000 
+print('a=',a)
