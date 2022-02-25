@@ -1,0 +1,18 @@
+input:
+
+n=int(input("enter number value:"))
+list=[]
+tlist=[]
+for i in range(n):
+    x=int(input())
+    list.append(x)
+    x=0
+for i in range(n):
+    if list[i]!=0:
+        tlist.append(list[i])
+print(" ",tlist)
+c=0
+for i in range(n):
+    if list[i]!=0:
+        c=c+1
+print("total count:",c)
